@@ -28,10 +28,10 @@ eksctl version
 1) Create New Role using IAM service ( Select Usecase - ec2 ) 	
 2) Add below permissions for the role <br/>
  - IAM -fullacess
- - VPC- fullaccess
- - Ec2-Fullaccess
- - CloudFormation-Access
- - Administrator - acces <br/>
+ - Amazon VPC- fullaccess
+ - Aamzon Ec2-Fullaccess
+ - Aws CloudFormation-fullAccess
+ - Administrative - acces <br/>
 		
 3) Enter Role Name (eksroleec2) 
 4) Attach created role to EKS Management Host (Select EC2 => Click on Security => Modify IAM Role => attach IAM role we have created) 
